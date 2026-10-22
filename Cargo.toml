@@ -1,0 +1,19 @@
+[package]
+name = "contcal"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+description = "Calendrier continu pour le terminal, avec flux ICS Outlook et Google"
+readme = "README.md"
+repository = "https://github.com/stephanedenis/contcal"
+homepage = "https://github.com/stephanedenis/contcal"
+keywords = ["calendar", "tui", "ics", "terminal", "outlook"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+chrono = "0.4.45"
+crossterm = "0.29.0"
+serde = { version = "1.0.229", features = ["derive"] }
+toml = "1.1.8"
+unicode-width = { version = "0.2.2", default-features = false }
+ureq = "3.5.0"
