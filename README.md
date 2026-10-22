@@ -190,3 +190,11 @@ Le projet est organisé autour de quelques modules : `config` (fichier home et
 validation), `ics` (analyse iCalendar et récurrences), `fetch` (téléchargement
 en arrière-plan), `calendar`/`layout` (dates et géométrie), `theme` (couleurs),
 `app` (état et entrées) et `ui` (rendu ANSI).
+
+## Licence
+
+MIT — voir [LICENSE](LICENSE). Copyright (c) 2026 Stéphane Denis.
+
+L'utilisation, la modification et la redistribution sont libres, y compris
+commercialement, à condition de conserver la mention de copyright et le texte
+de la licence.

@@ -5,6 +5,7 @@ edition = "2024"
 rust-version = "1.88"
 description = "Calendrier continu pour le terminal, avec flux ICS Outlook et Google"
 readme = "README.md"
+license = "MIT"
 repository = "https://github.com/stephanedenis/contcal"
 homepage = "https://github.com/stephanedenis/contcal"
 keywords = ["calendar", "tui", "ics", "terminal", "outlook"]
