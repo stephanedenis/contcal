@@ -10,16 +10,16 @@ Les calendriers partagés Outlook / Microsoft 365 et Google Calendar sont lus
 depuis leurs flux iCalendar (`.ics`), et les événements apparaissent directement
 dans les cases.
 
-```text
- contcal   juillet – octobre 2026                         ◉ jeu 22 octobre  ·  18 événements
- Sem   LUNDI          MARDI          MERCREDI       JEUDI          VENDREDI       SAMEDI         DIMANCHE
- S30   20             21             22             23             24             25             26
- S31   27             28             29             30             31              1 août         2
- S32    3              4              5              6              7              8              9
- ...
- S43   19             20             21 ▪ Journée…  22 ▪ Fête… +1  23 • Revue d…  24 • Brunch    25
- S44   26 • Standup   27             28 • Standup   29 • Concert   30             31              1 novembre
-```
+![Aperçu du calendrier](docs/screenshot-calendar.png)
+
+<details>
+<summary>Écran d’informations</summary>
+
+![Écran d’informations](docs/screenshot-info.png)
+
+</details>
+
+> Les captures utilisent des flux de démonstration.
 
 ## Fonctionnalités
 
@@ -41,6 +41,18 @@ dans les cases.
 - Configuration unique dans le home, rechargée à chaud avec `c`.
 
 ## Installation
+
+### Binaire précompilé
+
+Téléchargez l’archive de la [dernière release](https://github.com/stephanedenis/contcal/releases)
+(`x86_64-unknown-linux-gnu`), puis :
+
+```bash
+tar -xzf contcal-0.1.0-x86_64-unknown-linux-gnu.tar.gz
+sudo install -m 755 contcal /usr/local/bin/
+```
+
+### Depuis les sources
 
 Prérequis : Rust 1.88 ou plus récent (édition 2024) et un terminal UTF-8.
 
